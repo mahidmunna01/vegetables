@@ -1,0 +1,75 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: crimson;
+}
+
+nav {
+  text-align: center;
+  border-bottom: 3px solid crimson;
+}
+
+nav p {
+  margin: 0;
+  font-size: 35px;
+  color: white;
+  background-color: crimson;
+  font-weight: bold;
+}
+
+nav ul {
+  text-align: center;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 1%;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+address {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  border-bottom: 2px solid;
+}
+
+.parent {
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 2px;
+}
+
+.child img {
+  width: 50%;
+}
+
+.child {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+
+p a {
+  text-decoration: none;
+  color: black;
+  padding: 8px 5%;
+  border-radius: 4px;
+  background-color: white;
+}
+
+p a:hover {
+  background-color: crimson;
+  color: white;
+}
